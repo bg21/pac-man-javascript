@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: yellow;
+}
+
+#gameCanvas {
+    background-color: black;
+    border: 2px solid yellow;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-around;
+    width: 560px;
+    margin-top: 10px;
+}
